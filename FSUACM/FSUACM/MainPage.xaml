@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FSUACM.MainPage">
+
+    <StackLayout x:Name="MainStackLayout" Padding="50, 50" BackgroundColor="Black">
+        <Label Text="FSU ACM Online" HorizontalOptions="Center" FontSize="30" TextColor="#CDC092"/>
+        <Image Source="Logo.png"
+               HeightRequest="300" />
+        <Label Text="Username" TextColor="#CDC092"/>
+        <Entry x:Name="usernameEntry" Placeholder="username" BackgroundColor="Beige"/>
+        <Label Text="Password" TextColor="#CDC092"/>
+        <Entry x:Name="passwordEntry" IsPassword="true" BackgroundColor="Beige" />
+        <Button Text="Login" Clicked="OnLoginButtonClicked" />
+        
+    </StackLayout>
+
+</ContentPage>

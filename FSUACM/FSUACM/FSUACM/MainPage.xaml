@@ -5,8 +5,7 @@
 
     <StackLayout x:Name="MainStackLayout" Padding="50, 50" BackgroundColor="Black">
         <Label Text="FSU ACM Online" HorizontalOptions="Center" FontSize="30" TextColor="#CDC092"/>
-        <Image Source="Logo.png"
-               HeightRequest="300" />
+        <Image x:Name="LoginLogo" Source="Logo.png" HeightRequest="300" />
         <Label Text="Username" TextColor="#CDC092"/>
         <Entry x:Name="usernameEntry" Placeholder="username" BackgroundColor="Beige"/>
         <Label Text="Password" TextColor="#CDC092"/>

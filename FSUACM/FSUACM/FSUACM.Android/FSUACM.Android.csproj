@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B3D269D-BE88-413B-A0ED-4D783EFE150F}</ProjectGuid>
+    <ProjectGuid>{599D8928-D9C9-41A8-BB69-BE3F4157D837}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -88,7 +88,7 @@
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\FSUACM\FSUACM.csproj">
-      <Project>{11E20EDA-6496-4F81-B4F3-ECC1FF6328BA}</Project>
+      <Project>{A771D5CF-C1C6-4FE5-9284-C2A5A6D073A9}</Project>
       <Name>FSUACM</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace FSUACM
 {
@@ -13,13 +14,12 @@ namespace FSUACM
         public MainPage()
         {
             InitializeComponent();
-           
+
         }
 
-		void OnLoginButtonClicked(object sender, EventArgs e)
-		{
+	void OnLoginButtonClicked(object sender, EventArgs e)
+	{
             //throw new NotImplementedException();
-		}
-
 	}
+    }
 }

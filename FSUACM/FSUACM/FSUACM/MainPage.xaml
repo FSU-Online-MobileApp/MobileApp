@@ -10,8 +10,8 @@
         <Entry x:Name="usernameEntry" Placeholder="username" BackgroundColor="Beige"/>
         <Label Text="Password" TextColor="#CDC092"/>
         <Entry x:Name="passwordEntry" IsPassword="true" BackgroundColor="Beige" />
-        <Button Text="Login" Clicked="OnLoginButtonClicked" />
-        
+        <!--<Button Text="Login" Clicked="OnLoginButtonClicked" />-->
+        <Button Text="Test Features" Clicked="OnFeaturesButtonClicked" />
     </StackLayout>
 
 </ContentPage>

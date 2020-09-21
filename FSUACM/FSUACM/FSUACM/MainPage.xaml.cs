@@ -17,9 +17,15 @@ namespace FSUACM
 
         }
 
-	void OnLoginButtonClicked(object sender, EventArgs e)
-	{
+	    void OnLoginButtonClicked(object sender, EventArgs e)
+	    {
             //throw new NotImplementedException();
-	}
+
+	    }
+
+        async void OnFeaturesButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Navigation());
+        }
     }
 }
